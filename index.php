@@ -26,7 +26,7 @@ try {
                     echo json_encode($data);
                 } else {
                     http_response_code(404);
-                    echo json_encode(['message' => 'Data not found']);
+                    echo json_encode(['message' => 'Data tidak ditemukan']);
                 }
             } else {
                 $sql = "SELECT * FROM mahasiswa";
@@ -38,12 +38,17 @@ try {
 
         case 'POST':
             $data = json_decode(file_get_contents('php://input'), true);
+            if (!$data['name'] || !$data['nim']) {
+                http_response_code(400);
+                echo json_encode(['message' => 'Nama dan NIM harus tidak boleh kosong']);
+                break;
+            }
             $sql = "INSERT INTO mahasiswa (name, nim) VALUES (?, ?)";
             $stmt = $conn->prepare($sql);
             $stmt->execute([$data['name'], $data['nim']]);
             
             echo json_encode([
-                'message' => 'Data created successfully',
+                'message' => 'Data berhasil ditambahkan',
                 'id' => $conn->lastInsertId()
             ]);
             break;
@@ -51,27 +56,32 @@ try {
         case 'PUT':
             if (!$id) {
                 http_response_code(400);
-                echo json_encode(['message' => 'ID required']);
+                echo json_encode(['message' => 'ID tdak boleh kosong']);
                 break;
             }
             
             $data = json_decode(file_get_contents('php://input'), true);
+            if (!$data['name'] || !$data['nim']) {
+                http_response_code(400);
+                echo json_encode(['message' => 'Nama dan NIM harus tidak boleh kosong']);
+                break;
+            }
             $sql = "UPDATE mahasiswa SET name = ?, nim = ? WHERE id = ?";
             $stmt = $conn->prepare($sql);
             $stmt->execute([$data['name'], $data['nim'], $id]);
             
             if ($stmt->rowCount() > 0) {
-                echo json_encode(['message' => 'Data updated successfully']);
+                echo json_encode(['message' => 'Data berhasil diupdate']);
             } else {
                 http_response_code(404);
-                echo json_encode(['message' => 'Data not found']);
+                echo json_encode(['message' => 'Data tidak ditemukan']);
             }
             break;
 
         case 'DELETE':
             if (!$id) {
                 http_response_code(400);
-                echo json_encode(['message' => 'ID required']);
+                echo json_encode(['message' => 'ID tdak boleh kosong']);
                 break;
             }
             
@@ -80,16 +90,16 @@ try {
             $stmt->execute([$id]);
             
             if ($stmt->rowCount() > 0) {
-                echo json_encode(['message' => 'Data deleted successfully']);
+                echo json_encode(['message' => 'Data berhasil dihapus']);
             } else {
                 http_response_code(404);
-                echo json_encode(['message' => 'Data not found']);
+                echo json_encode(['message' => 'Data tidak ditemukan']);
             }
             break;
 
         default:
             http_response_code(405);
-            echo json_encode(['message' => 'Method not allowed']);
+            echo json_encode(['message' => 'Method tidak diizinkan']);
             break;
     }
 } catch (PDOException $e) {
