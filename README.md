@@ -16,6 +16,8 @@ Testing using POSTMAN or Documentation in Swagger
 ..../t089/index.php/mahasiswa
 ```
 
+![Logo](./t089/img/get.png)
+
 ### GET by ID
 
 ```bash
