@@ -1,18 +1,22 @@
 <?php
 header('Content-Type: application/json');
-require_once 'db.php';
+require_once __DIR__ . '/db.php';
 
 $database = new Database();
 $conn = $database->getConnection();
 
 $method = $_SERVER['REQUEST_METHOD'];
-$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+$basePath = '/t089/index.php'; 
+$requestUri = $_SERVER['REQUEST_URI'];
+
+$path = str_replace($basePath, '', parse_url($requestUri, PHP_URL_PATH));
+
 $id = null;
 
-if (preg_match('/\/mahasiswa\/(\d+)/', $path, $matches)) {
+if (preg_match('/^\/mahasiswa\/(\d+)$/', $path, $matches)) {
     $id = $matches[1];
-};
-
+}
 
 try {
     switch ($method) {
@@ -39,9 +43,9 @@ try {
 
         case 'POST':
             $data = json_decode(file_get_contents('php://input'), true);
-            if (!$data['name'] || !$data['nim']) {
+            if (empty($data['name']) || empty($data['nim'])) {
                 http_response_code(400);
-                echo json_encode(['message' => 'Nama dan NIM harus tidak boleh kosong']);
+                echo json_encode(['message' => 'Nama dan NIM tidak boleh kosong']);
                 break;
             }
             $sql = "INSERT INTO mahasiswa (name, nim) VALUES (?, ?)";
@@ -57,14 +61,14 @@ try {
         case 'PUT':
             if (!$id) {
                 http_response_code(400);
-                echo json_encode(['message' => 'ID tdak boleh kosong']);
+                echo json_encode(['message' => 'ID tidak boleh kosong']);
                 break;
             }
             
             $data = json_decode(file_get_contents('php://input'), true);
-            if (!$data['name'] || !$data['nim']) {
+            if (empty($data['name']) || empty($data['nim'])) {
                 http_response_code(400);
-                echo json_encode(['message' => 'Nama dan NIM harus tidak boleh kosong']);
+                echo json_encode(['message' => 'Nama dan NIM tidak boleh kosong']);
                 break;
             }
             $sql = "UPDATE mahasiswa SET name = ?, nim = ? WHERE id = ?";
@@ -82,7 +86,7 @@ try {
         case 'DELETE':
             if (!$id) {
                 http_response_code(400);
-                echo json_encode(['message' => 'ID tdak boleh kosong']);
+                echo json_encode(['message' => 'ID tidak boleh kosong']);
                 break;
             }
             
@@ -110,5 +114,4 @@ try {
     http_response_code(500);
     echo json_encode(['message' => 'Server error: ' . $e->getMessage()]);
 }
-
 ?>
