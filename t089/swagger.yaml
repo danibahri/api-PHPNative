@@ -1,0 +1,124 @@
+openapi: 3.0.0
+info:
+  title: API Mahasiswa
+  description: API untuk mengelola data mahasiswa
+  version: 1.0.0
+servers:
+  - url: http://api-native.test/t089/index.php
+paths:
+  /mahasiswa:
+    get:
+      summary: Mendapatkan daftar mahasiswa
+      responses:
+        "200":
+          description: Sukses mendapatkan daftar mahasiswa
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Mahasiswa"
+    post:
+      summary: Menambahkan data mahasiswa baru
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MahasiswaRequest"
+      responses:
+        "200":
+          description: Data berhasil ditambahkan
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Data berhasil ditambahkan
+                  id:
+                    type: integer
+                    example: 5
+        "400":
+          description: Input tidak valid
+
+  /mahasiswa/{id}:
+    get:
+      summary: Mendapatkan data mahasiswa berdasarkan ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Sukses mendapatkan data mahasiswa
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Mahasiswa"
+        "404":
+          description: Data tidak ditemukan
+
+    put:
+      summary: Memperbarui data mahasiswa
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MahasiswaRequest"
+      responses:
+        "200":
+          description: Data berhasil diupdate
+        "404":
+          description: Data tidak ditemukan
+
+    delete:
+      summary: Menghapus data mahasiswa
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Data berhasil dihapus
+        "404":
+          description: Data tidak ditemukan
+
+components:
+  schemas:
+    Mahasiswa:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: Ahmad Ramadani Bahri
+        nim:
+          type: string
+          example: "1234567890"
+    MahasiswaRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Ahmad Ramadani Bahri
+        nim:
+          type: string
+          example: "1234567890"
+      required:
+        - name
+        - nim
