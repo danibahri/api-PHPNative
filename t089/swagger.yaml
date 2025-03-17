@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: API Mahasiswa
   description: API untuk mengelola data mahasiswa <br>
-    [Dokumentasi lengkap](http://api-native.test/t089/index.php/mahasiswa)
+    [Dokumentasi lengkap](https://github.com/danibahri/api-PHPNative/blob/main/README.md)
   version: 1.0.0
 servers:
   - url: http://api-native.test/t089/index.php

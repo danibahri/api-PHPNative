@@ -1,38 +1,41 @@
 # API With PHP Native
 
-Create API using PHP Native with REQUEST Method (GET (all and by id), POST, PUT and DELETE)
-with documentation below
+Create API using PHP Native with REQUEST Method (GET (all and by id), POST, PUT(by id) and DELETE(by id)) with documentation below
 
-running with NGINX server in laragon
+running with NGINX server in laragon using Domain Custom Laragon (examaple.test) or acccess domain below:
 
-Testing using POSTMAN
+```bash
+https://kuliah2025.my.id/t089/index.php/mahasiswa
+```
+
+Testing using POSTMAN or Documentation in Swagger
 
 ### GET all Mahasiswa
 
 ```bash
-api-native.test/mahasiswa
+..../t089/index.php/mahasiswa
 ```
 
 ### GET by ID
 
 ```bash
-api-native.test/mahasiswa/{id}
+..../t089/index.php/mahasiswa/{id}
 ```
 
 ### POST
 
 ```bash
-api-native.test/mahasiswa/{id}
+..../t089/index.php/mahasiswa/{id}
 ```
 
 ### PUT
 
 ```bash
-api-native.test/mahasiswa/{id}
+..../t089/index.php/mahasiswa/{id}
 ```
 
 ### DELETE
 
 ```bash
-api-native.test/mahasiswa/{id}
+..../t089/index.php/mahasiswa/{id}
 ```
