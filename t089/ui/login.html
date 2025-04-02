@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - JWT Auth Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h3>Login</h3>
+            </div>
+            <div class="card-body">
+              <div id="alert-container"></div>
+              <form id="login-form">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                </div>
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-primary">Login</button>
+                  <a href="register.html" class="btn btn-link"
+                    >Belum punya akun? Register</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("login-form")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+          const email = document.getElementById("email").value;
+          const password = document.getElementById("password").value;
+
+          try {
+            const response = await fetch("../login.php", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ email, password }),
+            });
+
+            const data = await response.json();
+
+            const alertContainer = document.getElementById("alert-container");
+
+            if (data.success) {
+              // Simpan token di localStorage
+              localStorage.setItem("jwt_token", data.token);
+              localStorage.setItem("user_data", JSON.stringify(data.user));
+
+              // Redirect ke dashboard
+              window.location.href = "dashboard.html";
+            } else {
+              alertContainer.innerHTML = `
+                        <div class="alert alert-danger" role="alert">
+                            ${data.message}
+                        </div>
+                    `;
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            document.getElementById("alert-container").innerHTML = `
+                    <div class="alert alert-danger" role="alert">
+                        Terjadi kesalahan. Silakan coba lagi.
+                    </div>
+                `;
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1665 @@
+Request time: 2025-04-02 06:48:16
+Headers: Array
+(
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60599
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576496.3925
+    [REQUEST_TIME] => 1743576496
+)
+
+Request time: 2025-04-02 06:48:22
+Headers: Array
+(
+    [If-Modified-Since] => Tue, 01 Apr 2025 17:04:00 GMT
+    [If-None-Match] => "67ec1c80-c08"
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [Purpose] => prefetch
+    [Sec-Purpose] => prefetch;prerender
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_IF_MODIFIED_SINCE] => Tue, 01 Apr 2025 17:04:00 GMT
+    [HTTP_IF_NONE_MATCH] => "67ec1c80-c08"
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_PURPOSE] => prefetch
+    [HTTP_SEC_PURPOSE] => prefetch;prerender
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60599
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576502.3417
+    [REQUEST_TIME] => 1743576502
+)
+
+Request time: 2025-04-02 06:48:22
+Headers: Array
+(
+    [If-Modified-Since] => Tue, 01 Apr 2025 17:04:00 GMT
+    [If-None-Match] => "67ec1c80-c08"
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_IF_MODIFIED_SINCE] => Tue, 01 Apr 2025 17:04:00 GMT
+    [HTTP_IF_NONE_MATCH] => "67ec1c80-c08"
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60599
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576502.938
+    [REQUEST_TIME] => 1743576502
+)
+
+Request time: 2025-04-02 06:48:31
+Headers: Array
+(
+    [Host] => api-native.test
+    [Referer] => http://api-native.test/t089
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Postman-Token] => 508d92e5-9128-4cf9-a550-c4402b6a2f77
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_HOST] => api-native.test
+    [HTTP_REFERER] => http://api-native.test/t089
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_POSTMAN_TOKEN] => 508d92e5-9128-4cf9-a550-c4402b6a2f77
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576511.2024
+    [REQUEST_TIME] => 1743576511
+)
+
+Request time: 2025-04-02 06:48:40
+Headers: Array
+(
+    [Host] => api-native.test
+    [Referer] => http://api-native.test/t089
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Postman-Token] => 92836ba7-964f-4fa2-8cad-9bec4d6325d2
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJpYXQiOjE3NDM1NzE1NTAsImV4cCI6MTc0MzU3NTE1MCwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.igbl1-ebFNa5_gUpZbgJ6jYg-jHonIzfVo8aocSFWDE
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_HOST] => api-native.test
+    [HTTP_REFERER] => http://api-native.test/t089
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_POSTMAN_TOKEN] => 92836ba7-964f-4fa2-8cad-9bec4d6325d2
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJpYXQiOjE3NDM1NzE1NTAsImV4cCI6MTc0MzU3NTE1MCwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.igbl1-ebFNa5_gUpZbgJ6jYg-jHonIzfVo8aocSFWDE
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576520.624
+    [REQUEST_TIME] => 1743576520
+)
+
+Request time: 2025-04-02 06:49:10
+Headers: Array
+(
+    [Host] => api-native.test
+    [Referer] => http://api-native.test/t089
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Postman-Token] => 64cbd37b-e40a-44ce-8bdb-5155768c8ed2
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_HOST] => api-native.test
+    [HTTP_REFERER] => http://api-native.test/t089
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_POSTMAN_TOKEN] => 64cbd37b-e40a-44ce-8bdb-5155768c8ed2
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576550.1777
+    [REQUEST_TIME] => 1743576550
+)
+
+Request time: 2025-04-02 06:49:53
+Headers: Array
+(
+    [Host] => api-native.test
+    [Referer] => http://api-native.test/t089
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Postman-Token] => 1be3ea2e-f6af-466d-bde8-6602ba7213ae
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_HOST] => api-native.test
+    [HTTP_REFERER] => http://api-native.test/t089
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_POSTMAN_TOKEN] => 1be3ea2e-f6af-466d-bde8-6602ba7213ae
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576593.2007
+    [REQUEST_TIME] => 1743576593
+)
+
+Request time: 2025-04-02 06:49:56
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 317b3913-68d3-4ecc-b336-91869cee98f9
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 317b3913-68d3-4ecc-b336-91869cee98f9
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576596.6911
+    [REQUEST_TIME] => 1743576596
+)
+
+Request time: 2025-04-02 06:49:59
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 1c39bfb8-d333-45f9-9963-68e2c110ff77
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 1c39bfb8-d333-45f9-9963-68e2c110ff77
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576599.0622
+    [REQUEST_TIME] => 1743576599
+)
+
+Request time: 2025-04-02 06:50:18
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 00ba2580-8823-4568-a2a5-ef10d5c6ceea
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 00ba2580-8823-4568-a2a5-ef10d5c6ceea
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576618.915
+    [REQUEST_TIME] => 1743576618
+)
+
+Request time: 2025-04-02 06:50:32
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 59003a33-7a44-423b-912d-6b617ca370a8
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 59003a33-7a44-423b-912d-6b617ca370a8
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60611
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576632.3651
+    [REQUEST_TIME] => 1743576632
+)
+
+Request time: 2025-04-02 06:55:58
+Headers: Array
+(
+    [If-Modified-Since] => Tue, 01 Apr 2025 17:04:00 GMT
+    [If-None-Match] => "67ec1c80-c08"
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_IF_MODIFIED_SINCE] => Tue, 01 Apr 2025 17:04:00 GMT
+    [HTTP_IF_NONE_MATCH] => "67ec1c80-c08"
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60790
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576958.4288
+    [REQUEST_TIME] => 1743576958
+)
+
+Request time: 2025-04-02 06:56:03
+Headers: Array
+(
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60790
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743576963.7835
+    [REQUEST_TIME] => 1743576963
+)
+
+Request time: 2025-04-02 06:56:47
+Headers: Array
+(
+    [Accept-Language] => en-US,en;q=0.9,id;q=0.8
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => api-native.test
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,id;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_HOST] => api-native.test
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60790
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743577007.7386
+    [REQUEST_TIME] => 1743577007
+)
+
+Request time: 2025-04-02 06:56:54
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 8cd07a2e-7586-4133-a992-893f5d4be47a
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 8cd07a2e-7586-4133-a992-893f5d4be47a
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60817
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743577014.8918
+    [REQUEST_TIME] => 1743577014
+)
+
+Request time: 2025-04-02 06:57:10
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 638bb6ce-250e-4f3d-b607-f2fc4899e73e
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 638bb6ce-250e-4f3d-b607-f2fc4899e73e
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60817
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743577030.6968
+    [REQUEST_TIME] => 1743577030
+)
+
+Request time: 2025-04-02 06:57:22
+Headers: Array
+(
+    [Connection] => keep-alive
+    [Accept-Encoding] => gzip, deflate, br
+    [Host] => api-native.test
+    [Postman-Token] => 8a0e9c9d-34ae-435e-8095-b092a7bff22b
+    [Accept] => */*
+    [User-Agent] => PostmanRuntime/7.43.2
+    [Authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+SERVER: Array
+(
+    [ACSvcPort] => 17532
+    [ALLUSERSPROFILE] => C:\ProgramData
+    [APPDATA] => C:\Users\danib\AppData\Roaming
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [CommonProgramFiles(x86)] => C:\Program Files (x86)\Common Files
+    [CommonProgramW6432] => C:\Program Files\Common Files
+    [COMPUTERNAME] => RAMADANI
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [DriverData] => C:\Windows\System32\Drivers\DriverData
+    [EFC_10768] => 1
+    [GOPATH] => C:\Users\danib\go
+    [HADOOP_HOME] => C:\Hadoop\bin
+    [HOMEDRIVE] => C:
+    [HOMEPATH] => \Users\danib
+    [IGCCSVC_DB] => AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqo2+qtuuaEO6g8223flXTgQAAAACAAAAAAAQZgAAAAEAACAAAADx0Pudj8tgxEpDnJHoqLAlsBqy/GAwQgEwtYGsmo688QAAAAAOgAAAAAIAACAAAABBJv3xznG3vVjwb6A/aIIWcj/A8Frb+5zF2WhyL9frh2AAAADr/2+mMkOf2giXrYkg7hkenaCD4wJUlFQaAuYfv2zRbH0xUaMzkA/Je5usImbII6Zcl2Gf94RG5cBzAgLWaya7giXgXDt274DnmoHTl8JCVftGk1rzRWI9maPf3CQOhJxAAAAAm8SinSrol15edBqzt2kt0NtK3nN0R/igOrzeKUwdJRiBT5oDR4hx9dceLJN1FlgS7cz6u+JqOBrbaJKyHyQQRg==
+    [JAVA_HOME] => C:\Program Files\Java\jre1.8.0_421
+    [LOCALAPPDATA] => C:\Users\danib\AppData\Local
+    [LOGONSERVER] => \\RAMADANI
+    [NUMBER_OF_PROCESSORS] => 16
+    [OneDrive] => C:\Users\danib\OneDrive
+    [OneDriveConsumer] => C:\Users\danib\OneDrive
+    [OS] => Windows_NT
+    [Path] => C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\danib\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\Program Files\dotnet\;C:\Users\danib\anaconda3\Scripts;C:\Program Files\Erlang OTP\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-4.0.4\sbin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Users\danib\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python313\;C:\Users\danib\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\danib\AppData\Local\Programs\Python\Python312\;C:\Users\danib\AppData\Local\Microsoft\WindowsApps;C:\Users\danib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Spark\spark-3.5.3-bin-hadoop3\bin;C:\Hadoop\bin\bin;C:\Users\danib\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\danib\AppData\Roaming\npm;;C:\Users\danib\AppData\Local\Programs\Ollama;C:\Users\danib\.lmstudio\bin;C:\Users\danib\go\bin
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [PROCESSOR_ARCHITECTURE] => AMD64
+    [PROCESSOR_IDENTIFIER] => Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+    [PROCESSOR_LEVEL] => 6
+    [PROCESSOR_REVISION] => 9a03
+    [ProgramData] => C:\ProgramData
+    [ProgramFiles] => C:\Program Files
+    [ProgramFiles(x86)] => C:\Program Files (x86)
+    [ProgramW6432] => C:\Program Files
+    [PSModulePath] => C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+    [PT8HOME] => C:\Program Files\Cisco Packet Tracer 8.2.2
+    [PUBLIC] => C:\Users\Public
+    [RlsSvcPort] => 22112
+    [SESSIONNAME] => Console
+    [SPARK_HOME] => C:\Spark\spark-3.5.3-bin-hadoop3
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\Users\danib\AppData\Local\Temp
+    [TMP] => C:\Users\danib\AppData\Local\Temp
+    [USERDOMAIN] => RAMADANI
+    [USERDOMAIN_ROAMINGPROFILE] => RAMADANI
+    [USERNAME] => danib
+    [USERPROFILE] => C:\Users\danib
+    [windir] => C:\WINDOWS
+    [ZES_ENABLE_SYSMAN] => 1
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => api-native.test
+    [HTTP_POSTMAN_TOKEN] => 8a0e9c9d-34ae-435e-8095-b092a7bff22b
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.43.2
+    [HTTP_AUTHORIZATION] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDM1NzY1MzIsImV4cCI6MTc0MzU4MDEzMiwidXNlcl9pZCI6MywiZW1haWwiOiJkYW5pQGV4YW1wbGUuY29tIn0.us3DdFBqKQ0koBd6MPC9BZ9MuIxzAyvw7ORVEFKYGog
+    [REDIRECT_STATUS] => 200
+    [SERVER_NAME] => api-native.test
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 60817
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_SOFTWARE] => nginx/1.22.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REQUEST_SCHEME] => http
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [DOCUMENT_ROOT] => C:/laragon/www/api-native
+    [DOCUMENT_URI] => /t089/index.php
+    [REQUEST_URI] => /t089/index.php
+    [SCRIPT_NAME] => /t089/index.php
+    [CONTENT_LENGTH] => 
+    [CONTENT_TYPE] => 
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [SCRIPT_FILENAME] => C:/laragon/www/api-native/t089/index.php
+    [PATH_INFO] => 
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /t089/index.php
+    [REQUEST_TIME_FLOAT] => 1743577042.3714
+    [REQUEST_TIME] => 1743577042
+)
+

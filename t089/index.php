@@ -1,26 +1,56 @@
 <?php
 header('Content-Type: application/json');
 header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
-header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+
+// Untuk menangani preflight request
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
+    exit;
+}
 
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/auth.php';
+
+// Log untuk debugging
+// error_log("Request received: " . $_SERVER['REQUEST_METHOD'] . " " . $_SERVER['REQUEST_URI']);
+
+// Validasi token terlebih dahulu
+$auth = new Auth();
+$tokenValidation = $auth->validateToken();
+
+// Log hasil validasi token
+// error_log("Token validation result: " . print_r($tokenValidation, true));
+
+if (!$tokenValidation['success']) {
+    http_response_code(401);
+    echo json_encode([
+        'success' => false,
+        'message' => $tokenValidation['message']
+    ]);
+    exit;
+}
 
 $database = new Database();
 $conn = $database->getConnection();
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-$basePath = '/t089/index.php'; 
-$requestUri = $_SERVER['REQUEST_URI'];
-
-$path = str_replace($basePath, '', parse_url($requestUri, PHP_URL_PATH));
+// Perbaikan base path sesuai struktur direktori
+$basePath = '/t089';  // Langsung set base path sesuai struktur
+$requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$path = substr($requestUri, strlen($basePath)) ?: '';
+$path = trim($path, '/');
 
 $id = null;
 
-if (preg_match('/^\/mahasiswa\/(\d+)$/', $path, $matches)) {
+// Perbaikan regex untuk menghilangkan leading slash
+if (preg_match('/^mahasiswa\/(\d+)$/', $path, $matches)) {
     $id = $matches[1];
 }
+
+// var_dump($path, $id); exit;
 
 try {
     switch ($method) {
@@ -118,4 +148,3 @@ try {
     http_response_code(500);
     echo json_encode(['message' => 'Server error: ' . $e->getMessage()]);
 }
-?>
